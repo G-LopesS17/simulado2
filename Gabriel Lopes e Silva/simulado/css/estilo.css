@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F5EFE6; /* Bege areia claro */
+    color: #3E2723; /* Marrom café escuro */
+}
+
+.navbar {
+    background-color: #5D4037; /* Marrom terra */
+    padding: 15px 30px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navbar a {
+    color: #FAF3E0;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+.navbar a:hover {
+    background-color: #8D6E63; /* Marrom médio */
+}
+
+.navbar .btn-sair {
+    margin-left: auto;
+    background-color: #A0522D; /* Sienna / Terracota */
+}
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: #FFFDF9;
+    padding: 25px;
+    border-radius: 8px;
+    border: 1px solid #D7CCC8;
+}
+
+.login-box {
+    max-width: 400px;
+    margin-top: 80px;
+}
+
+h1, h2 {
+    color: #4E342E;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #BCAAA4;
+    border-radius: 4px;
+    background-color: #FAF8F5;
+}
+
+button, .btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 18px;
+    background-color: #8D5B4C; /* Terracota suave */
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+button:hover, .btn:hover {
+    background-color: #6D4C41;
+}
+
+.btn-editar {
+    background-color: #B87D4B; /* Ocre */
+    padding: 5px 10px;
+    margin-top: 0;
+}
+
+.btn-excluir {
+    background-color: #9E3B33; /* Tijolo queimado */
+    padding: 5px 10px;
+    margin-top: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #D7CCC8;
+    text-align: left;
+}
+
+th {
+    background-color: #EFEBE9;
+    color: #4E342E;
+}
+
+.alerta-erro {
+    background-color: #F8D7DA;
+    color: #721C24;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    border: 1px solid #F5C6CB;
+}
+
+.busca-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.busca-form input {
+    margin-top: 0;
+}
+
+.busca-form button {
+    margin-top: 0;
+}
+
+.nota-rodape {
+    margin-top: 15px;
+    font-size: 13px;
+}
